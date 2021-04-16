@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QR Scanner</string>
+    <string name="action_settings">Settings</string>
+
+    <!--  Buttons  -->
+    <string name="scannBtn">Scannen</string>
+    <string name="submitBtn">\u00A0 Suchen</string>
+    <string name="typeNr">ID eingeben</string>
+    <string name="cancel">\u00A0 Abbrechen</string>
+    <string name="viewStatus">Check Status</string>
+    <string name="save">Speichern</string>
+    <string name="neuScann">Scannen</string>
+    <string name="backToHome">Hauptseite</string>
+    <string name="aktStatus">Not Selected</string>
+    <string name="createOrder">Neuer Auftrag</string>
+    <string name="createOrderBtn">Speichern</string>
+    <string name="cancelOrderBtn">Abbrechen</string>
+    <string name="KundeVorname">Vorname</string>
+    <string name="KundeNachname">Nachname</string>
+    <string name="orderDescription">Bemerkung</string>
+
+    <!-- EditText -->
+    <string name="inputNr">ID Eingeben</string>
+    <string name="auftrIdLabel">Auftrag ID:</string>
+    <string name="auftrId">10345</string>
+    <string name="infoLabel">Info:</string>
+    <string name="kundName">Max Mustermann</string>
+    <string name="changeStatusLabel">Neuer Status: </string>
+    <string name="currentStatusLabel">Aktueller Status: </string>
+</resources>

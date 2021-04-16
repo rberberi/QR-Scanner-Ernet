@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="appLabelColor">#57aa28</color>
+    <color name="mainPanelColor">#ffffff</color>
+    <color name="btnTextColor">#ffffff</color>
+    <color name="btnBGColor">#57aa28</color>
+    <color name="statusTextsColor">#57aa28</color>
+    <color name="line">#696969</color>
+    <color name="infoPanel">#d0facd</color>
+</resources>

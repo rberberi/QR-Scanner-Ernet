@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_2" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf833d5e-74a0-4158-977b-b4749ba0e91f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ernet/qrscanner/view/CreateOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ernet/qrscanner/view/CreateOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="qrscanner" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_API_28" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="rei" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UEsyRx8sOaDzrClWmFI6alrGy4" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="23e54e84de0c7ece" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-03-04T13:29:41.581411Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="device.picker.selection" value="23e54e84de0c7ece" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.ernet.qrscanner.view" />
+      <recent name="com.ernet.qrscanner" />
+      <recent name="com.example.qrscanner" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.Run">
+    <configuration name="Run" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.ernet.qrscanner.MainActivity" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Firebase" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.Run" />
+      <item itemvalue="Android Instrumented Tests.Firebase" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android App.Run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf833d5e-74a0-4158-977b-b4749ba0e91f" name="Default Changelist" comment="" />
+      <created>1574933342849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574933342849</updated>
+      <workItem from="1574933348255" duration="1591000" />
+      <workItem from="1574934975823" duration="5110000" />
+      <workItem from="1575014203296" duration="12032000" />
+      <workItem from="1575032367279" duration="3973000" />
+      <workItem from="1575097167247" duration="3095000" />
+      <workItem from="1575197729565" duration="388000" />
+      <workItem from="1575540527732" duration="727000" />
+      <workItem from="1575544057584" duration="10675000" />
+      <workItem from="1575576281518" duration="7142000" />
+      <workItem from="1575623390011" duration="21082000" />
+      <workItem from="1575714923079" duration="15696000" />
+      <workItem from="1575803559251" duration="5202000" />
+      <workItem from="1575928886942" duration="155000" />
+      <workItem from="1575929692749" duration="673000" />
+      <workItem from="1576141771124" duration="14908000" />
+      <workItem from="1576161641613" duration="316000" />
+      <workItem from="1576172741449" duration="5666000" />
+      <workItem from="1576225369353" duration="8766000" />
+      <workItem from="1578860384985" duration="1786000" />
+      <workItem from="1579685934764" duration="4202000" />
+      <workItem from="1582277833218" duration="2998000" />
+      <workItem from="1582281831420" duration="4759000" />
+      <workItem from="1582289240024" duration="2483000" />
+      <workItem from="1582981921876" duration="6279000" />
+      <workItem from="1583003203884" duration="3113000" />
+      <workItem from="1583311680726" duration="7107000" />
+      <workItem from="1583326356999" duration="230000" />
+      <workItem from="1583327285629" duration="172000" />
+      <workItem from="1583327493520" duration="2143000" />
+      <workItem from="1583330119871" duration="613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="357" y="92" width="642" height="617" key="#Run" timestamp="1583330283974">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="357" y="92" width="642" height="617" key="#Run/0.27.1366.741@0.27.1366.741" timestamp="1583330283974" />
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583329864532">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1583329864532" />
+    <state x="251" y="231" width="510" height="492" key="#com.intellij.tools.ToolEditorDialog" timestamp="1583329997626">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="251" y="231" width="510" height="492" key="#com.intellij.tools.ToolEditorDialog/0.27.1366.741@0.27.1366.741" timestamp="1583329997626" />
+    <state width="1320" height="403" key="GridCell.Tab.0.bottom" timestamp="1583330086447">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="403" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1583330086447" />
+    <state width="1320" height="403" key="GridCell.Tab.0.center" timestamp="1583330086446">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="403" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1583330086446" />
+    <state width="1320" height="403" key="GridCell.Tab.0.left" timestamp="1583330086445">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="403" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1583330086445" />
+    <state width="1320" height="403" key="GridCell.Tab.0.right" timestamp="1583330086446">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="403" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1583330086446" />
+    <state x="266" y="143" width="824" height="515" key="IDE.errors.dialog" timestamp="1583327963286">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="266" y="143" width="824" height="515" key="IDE.errors.dialog/0.27.1366.741@0.27.1366.741" timestamp="1583327963286" />
+    <state x="0" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1583330069339">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="31" width="1022" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1583330069339" />
+    <state x="100" y="127" width="1166" height="541" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1583328031540">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="127" width="1166" height="541" key="com.android.tools.idea.avdmanager.AvdListDialog/0.27.1366.741@0.27.1366.741" timestamp="1583328031540" />
+    <state x="409" y="60" width="537" height="681" key="git4idea.branch.GitSmartOperationDialog" timestamp="1583328002519">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="409" y="60" width="537" height="681" key="git4idea.branch.GitSmartOperationDialog/0.27.1366.741@0.27.1366.741" timestamp="1583328002519" />
+  </component>
+</project>

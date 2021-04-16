@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/createOrder"
+    style="@style/createOrderRoot"
+    tools:layout_editor_absoluteY="125dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"
+    >
+
+        <EditText android:id="@+id/KundeVorname" style="@style/KundeVorname" />
+        <EditText android:id="@+id/KundeNachname" style="@style/KundeNachname" />
+        <EditText android:id="@+id/orderDescription" style="@style/orderDescription" />
+        <RelativeLayout style="@style/createOrderSpinnerWrapper">
+            <Spinner android:id="@+id/createOrderSpinner" style="@style/createOrderSpinner" />
+            <ImageView style="@style/createOrderSpinnerDropdown" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonsWrapper2">
+        <Button android:id="@+id/createOrderBtn" style="@style/createOrderBtn" />
+        <Button android:id="@+id/cancelOrderBtn" style="@style/cancelOrderBtn" />
+    </LinearLayout>
+
+</LinearLayout>

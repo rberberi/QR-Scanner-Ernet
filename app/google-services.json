@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "416463127730",
+    "firebase_url": "https://studprojectdb.firebaseio.com",
+    "project_id": "studprojectdb",
+    "storage_bucket": "studprojectdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416463127730:android:46b0d5ceda2fd30b5cf5ab",
+        "android_client_info": {
+          "package_name": "com.example.qrscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416463127730-fvtrt7alc1keea3i8pdvpome7g344o4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC80il04mCG9DPUm3b5gBrqG925X8GIQ3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416463127730-fvtrt7alc1keea3i8pdvpome7g344o4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

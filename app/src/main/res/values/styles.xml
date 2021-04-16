@@ -1,0 +1,457 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- Main Panel Label -->
+    <style name="appLabel">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity"> end</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/btnBGColor</item>
+        <item name="android:fontFamily">Roboto Condensed, Helvetica, Arial, sans-serif</item>
+    </style>
+
+    <!-- Scann Button-->
+    <style name="scannBtn">
+        <item name="android:text">@string/scannBtn</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">85dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:drawableLeft">@drawable/ic_qrcode_solid</item>
+    </style>
+
+    <!-- Type ID Button -->
+    <style name="typeNr">
+        <item name="android:text">@string/typeNr</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">85dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:drawableLeft">@drawable/ic_type_id_icon</item>
+    </style>
+
+    <!--  Create order Button  -->
+    <style name="createOrder">
+        <item name="android:text">@string/createOrder</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">85dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:drawableLeft">@drawable/ic_type_id_icon</item>
+    </style>
+
+    <!-- Create Order root layout-->
+    <style name="createOrderRoot">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+    </style>
+
+
+    <style name="buttonsWrapper2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Create Order Button  -->
+    <style name="createOrderBtn" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/createOrderBtn</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textAlignment"> viewStart</item>
+    </style>
+
+    <!-- Cancel Order Button -->
+    <style name="cancelOrderBtn">
+        <item name="android:text">@string/cancelOrderBtn</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="viewStatus">
+        <item name="android:text">@string/viewStatus</item>
+        <item name="android:layout_width">155dp</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Type ID Page -->
+    <style name="inputNrWrapper">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">200dp</item>
+    </style>
+
+    <!-- Input Field -->
+    <style name="inputNr">
+        <item name="android:hint">@string/inputNr</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="KundeVorname">
+        <item name="android:hint">@string/KundeVorname</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="KundeNachname">
+        <item name="android:hint">@string/KundeNachname</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="orderDescription">
+        <item name="android:hint">@string/orderDescription</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:layout_gravity">top|left</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:minLines">3</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+    </style>
+
+    <!-- Submit Button  -->
+    <style name="submitBtn" parent="TextAppearance.AppCompat">
+        <item name="android:text">@string/submitBtn</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:drawableLeft">@drawable/ic_search_black_24dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textAlignment"> viewStart</item>
+    </style>
+
+    <!-- Cancel Button -->
+    <style name="cancel">
+        <item name="android:text">@string/cancel</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:drawableLeft">@drawable/ic_clear_black_24dp</item>
+    </style>
+
+    <style name="buttonsWrapper">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- Status Page -->
+    <style name="statusPage">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/mainPanelColor</item>
+    </style>
+
+    <!-- Col 1 -->
+    <style name="col1">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/appLabelColor</item>
+    </style>
+
+    <!-- Col 2 -->
+    <style name="col2">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/infoPanel</item>
+    </style>
+
+    <!-- Label Of Id Field -->
+    <style name="auftrIdLabel">
+        <item name="android:text">@string/auftrIdLabel</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:fontFamily">Roboto Condensed, Helvetica, Arial, sans-serif</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@color/statusTextsColor</item>
+    </style>
+
+    <!-- Order Id -->
+    <style name="auftrId">
+        <item name="android:text">@string/auftrId</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:fontFamily">Roboto Condensed, Helvetica, Arial, sans-serif</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/statusTextsColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Col 3 -->
+    <style name="col3">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/infoPanel</item>
+    </style>
+
+    <!-- Status Label field -->
+    <style name="satusLabel">
+        <item name="android:text">@string/infoLabel</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:fontFamily">Roboto Condensed, Helvetica, Arial, sans-serif</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@color/statusTextsColor</item>
+    </style>
+
+    <!-- Status field -->
+    <style name="kundName">
+        <item name="android:text">@string/kundName</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:fontFamily">Roboto Condensed, Helvetica, Arial, sans-serif</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/statusTextsColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="aktStatus">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:text">@string/aktStatus</item>
+        <item name="android:textColor">@color/statusTextsColor</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="aktStatusWrapper">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+
+    <!-- Col 4 -->
+    <style name="col4">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+
+    <style name="currentStatusLabel">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/currentStatusLabel</item>
+        <item name="android:fontFamily">Roboto Condensed, Helvetica, Arial, sans-serif</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textColor">@color/statusTextsColor</item>
+    </style>
+
+    <style name="changeStatusLabel">
+        <item name="android:text">@string/changeStatusLabel</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">Roboto Condensed, Helvetica, Arial, sans-serif</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:textColor">@color/statusTextsColor</item>
+    </style>
+
+    <!-- Spinner Wrapper -->
+    <style name="spinnerWrapper">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">.28</item>
+        <item name="android:background">@drawable/border_for_spinner</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <!-- Spinner -->
+    <style name="spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/border_for_spinner</item>
+    </style>
+
+    <style name="spinnerDropdown">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:src">@drawable/ic_arrow_drop_down_circle_black_24dp</item>
+    </style>
+
+
+    <style name="createOrderSpinnerWrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/border_for_spinner</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="createOrderSpinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/border_for_spinner</item>
+    </style>
+
+    <style name="createOrderSpinnerDropdown">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:src">@drawable/ic_arrow_drop_down_circle_black_24dp</item>
+    </style>
+
+
+    <!-- Col 5 -->
+    <style name="col5">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <!-- Save Button -->
+    <style name="save">
+        <item name="android:text">@string/save</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.25</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:drawableLeft">@drawable/ic_save_black_24dp</item>
+    </style>
+
+    <style name="backToHome">
+        <item name="android:text">@string/backToHome</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.25</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:drawableLeft">@drawable/ic_home_black_24dp</item>
+    </style>
+
+    <style name="neuScann">
+        <item name="android:text">Scannen</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.25</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:textColor">@color/btnTextColor</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:drawableLeft">@drawable/ic_qrcode_neu_scann</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@color/btnBGColor</item>
+    </style>
+
+    <style name="footer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:background">@color/btnBGColor</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="footerButtonWrapper">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>
